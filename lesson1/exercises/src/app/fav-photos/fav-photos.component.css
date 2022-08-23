@@ -2,15 +2,11 @@ h3 {
    color: brown;
 }
 
-img {
+/* img {
 
-}
+} */
 
 .photos {
    text-align: center;
-   size: 250px;
-}
-
-#bigPigs{
-   height:300px;
+   size: 100px;
 }
