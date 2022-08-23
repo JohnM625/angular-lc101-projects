@@ -8,4 +8,9 @@ img {
 
 .photos {
    text-align: center;
+   size: 250px;
+}
+
+#bigPigs{
+   height:300px;
 }
