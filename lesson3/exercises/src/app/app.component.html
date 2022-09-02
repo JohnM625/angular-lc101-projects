@@ -37,4 +37,12 @@
       <button>Land</button>
       <button>Abort Mission</button>
    </div>
+
+   <div *ngIf="!takeOffEnabled">
+      <button (click)="moveRocket(rocketImage, 'up')">Up</button>
+      <button (click)="moveRocket(rocketImage, 'down')">Down</button>
+      <button (click)="moveRocket(rocketImage, 'right')">Right</button>
+      <button (click)="moveRocket(rocketImage, 'left')">Left</button>
+   </div>
+   
 </div>
